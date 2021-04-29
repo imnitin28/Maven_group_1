@@ -1,0 +1,19 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: maven
+    tag: 3.8.1-openjdk-17
+
+inputs:
+  - name: springapp
+
+run:
+  path: "mvn"
+  args:
+    - -f
+    - springapp/pom.xml
+    - clean
+    - test
