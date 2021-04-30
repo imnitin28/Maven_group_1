@@ -1,0 +1,12 @@
+roles:
+- name: owner
+  github:
+    users: ["admin"]
+- name: member
+  github:
+    teams: ["org:team"]
+- name: viewer
+  github:
+    orgs: ["org"]
+  local:
+    users: ["visitor"]fl

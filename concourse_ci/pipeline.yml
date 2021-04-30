@@ -22,7 +22,7 @@ jobs:
       - get: springapp
         trigger: true
       - task: mvn-test
-        file: "./Maven_Group_1/concourse_ci/tasks/maven-test.yml"
+        file: "springapp/concourse_ci/tasks/maven-test.yml"
 
   - name: package
     public: true
