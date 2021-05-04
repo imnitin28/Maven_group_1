@@ -72,8 +72,4 @@
         </pluginManagement>
     </build>
 
-    <!-- <modules>
-        <module>assign</module>
-    </modules> -->
-
 </project>
