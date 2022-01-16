@@ -33,7 +33,7 @@ jobs:
         image: imnitin28/maven-app
         registry: docker.io
         username: ${{ secrets.DOCKERHUB_USERNAME }}
-        password: ${{ secrets.DOCKERHUB_TOKEN }}
+        password: ${{ secrets.DOCKERHUB_PASSWORD }}
         push: true
         tags: imnitin28/app:latest
         
